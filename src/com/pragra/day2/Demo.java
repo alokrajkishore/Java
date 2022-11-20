@@ -3,13 +3,15 @@ package com.pragra.day2;
 import java.util.Date;
 
 public class Demo {
-    public static void main(String[] args) {
-        Date x = new Date();
-        int a = 5;
-        int b= 10;
-        int sum = sum(5, 20);
-        System.out.println("the sum is: "+ sum);
-        findEven();
+    public static void main(String... data) {
+        String[] days = new String[6];
+        for (int i = 0; i < days.length; i++) {
+            System.out.println(i);
+        }
+    }
+
+    public String convert(Integer value) {
+        return value.toString();
     }
 
     private void test () {
